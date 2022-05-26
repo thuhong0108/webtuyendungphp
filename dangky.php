@@ -1,49 +1,6 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <title>Đăng kí</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/checkout/">
-
-
-
-    <!-- Bootstrap core CSS -->
-    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-        
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-
-
-    <!-- Custom styles for this template -->
-    <link href="./assets/css/form-validation.css" rel="stylesheet">
-    <style>
-        .col-12 {
-            margin-left: 200px;
-        }
-    </style>
-</head>
-
-<body class="bg-light">
-    <div class="container">
+<?php
+    include('./partials/header.php');
+    ?>
         <main>
             <div class="py-5 text-center">
 
@@ -120,20 +77,9 @@
 
     </main>
 
-    <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2022–2023 Quản lý nhân sự</p>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="#">Quyền riêng tư</a></li>
-            <li class="list-inline-item"><a href="#">Điều Khoảng</a></li>
-            <li class="list-inline-item"><a href="#">Bảo mật</a></li>
-        </ul>
-    </footer>
-    </div>
-
-
-    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+    
 
     <script src="./assets/js/form-validation.js"></script>
-</body>
 
-</html>
+<?php
+    include './partials/footer.php';
