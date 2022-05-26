@@ -12,7 +12,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
     <!-- Bootstrap core CSS -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
         .avt{
@@ -40,7 +40,7 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="./carousel/carousel.css" rel="stylesheet">
 </head>
 
 <body>
@@ -63,14 +63,11 @@
                     <a class="nav-link active" aria-current="page" href="dangky.html">Đăng kí</a>
                 </li>
             </ul>
-            <form class="navbar-nav" style="left: 100px;">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">
-                    <span class="glyphicon glyphicon-search"></span>
-                </button>
-            </form>
+            <ul style="float: right;" class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="timkiem.php">Tìm kiếm</a>
+                </li>
+            </ul>
 
         </nav>
     </header>
