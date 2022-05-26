@@ -50,7 +50,7 @@
 
             <ul style="float: right;" class="navbar-nav ">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                    <a class="nav-link active" aria-current="page" href="index.php">Trang chủ</a>
                 </li>
             </ul>
             <ul style="float: right;" class="navbar-nav ">
