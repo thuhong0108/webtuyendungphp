@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="utf-8">
@@ -15,18 +15,26 @@
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+        .avt{
+            border-radius:50% ;
+        }
         .bd-placeholder-img {
             font-size: 1.125rem;
             text-anchor: middle;
             -webkit-user-select: none;
             -moz-user-select: none;
             user-select: none;
+            padding: 10px;
         }
         
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
             }
+        }
+        
+        .bg-container {
+            margin-top: 40px;
         }
     </style>
 
@@ -38,7 +46,7 @@
 <body>
 
     <header>
-        <nav style="float: right;" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav style="float: right;" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark navbar-form navbar-left">
 
 
             <ul style="float: right;" class="navbar-nav ">
@@ -51,7 +59,14 @@
                     <a class="nav-link active" aria-current="page" href="dangky.html">Đăng kí</a>
                 </li>
             </ul>
-
+            <form class="navbar-nav" style="left: 100px;">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </form>
 
         </nav>
     </header>
@@ -66,35 +81,29 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
+                    <div class="bg-container"><img src="./img/hinh-anh.jpg" alt="" width="100%" height="100%"></div>
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>Chào mừng bạn </h1>
                             <p>Bạn đang cần một công việc thích hợp hãy tìm kiếm </p>
-                            <p><a class="btn btn-lg btn-primary" href="#">tìm kiếm</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
+                    <div class="bg-container"><img src="./img/hinh-anh.jpg" alt="" width="100%" height="100%"></div>
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>Tạo hồ sơ </h1>
                             <p>Để nhà tuyển dụng có thể nhìn thấy bạn </p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Đăng kí</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
+                    <div class="bg-container"><img src="./img/hinh-anh.jpg" alt="" width="100%" height="100%"></div>
                     <div class="container">
                         <div class="carousel-caption text-end">
                             <h1>Đăng Nhập</h1>
                             <p>Để tìm hiểu nhiều vấn đề mà bạn đang thắc mắc </p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Đăng nhập</a></p>
                         </div>
                     </div>
                 </div>
@@ -119,27 +128,36 @@
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-                    <h2>Ngành nghề </h2>
-                    <p>Hiện nay có các ngành nghề phổ biến và mới đang được giới trẻ đón nhận</p>
-                    <p><a class="btn btn-secondary" href="#">Đăng nhập  &raquo;</a></p>
+                    <img class="avt" src="./img/2.jpg"  width="140" height="140">
+                    <h2> </h2>
+                    <p>Họ tên: Nguyễn Văn A</p>
+                    <p>Năm sinh: 10/02/2000</p>
+                    <p>Giới tính: Nam</p>
+                    <p>Địa chỉ: 01 An Dương Vương</p>
+                    <p>Sdt: 012345678</p>
+                    <p><a class="btn btn-secondary" href="#">Xem chi tiết &raquo;</a></p>
                 </div>
                 <!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-                    <h2>Thông tin</h2>
-                    <p>Nhưng công việc hiện nay </p>
-                    <p><a class="btn btn-secondary" href="#">Đăng nhập&raquo;</a></p>
+                    <img class="avt" src="./img/2.jpg"  width="140" height="140">
+                    <h2> </h2>
+                    <p>Họ tên: Nguyễn Văn A</p>
+                    <p>Năm sinh: 10/02/2000</p>
+                    <p>Giới tính: Nam</p>
+                    <p>Địa chỉ: 01 An Dương Vương</p>
+                    <p>Sdt: 012345678</p>
+                    <p><a class="btn btn-secondary" href="#">Xem chi tiết &raquo;</a></p>
                 </div>
                 <!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-                    <h2>Người dùng</h2>
-                    <p>thông tin người dùng </p>
-                    <p><a class="btn btn-secondary" href="#">Đăng kí &raquo;</a></p>
+                    <img class="avt" src="./img/2.jpg"  width="140" height="140">
+                    <h2> </h2>
+                    <p>Họ tên: Nguyễn Văn A</p>
+                    <p>Năm sinh: 10/02/2000</p>
+                    <p>Giới tính: Nam</p>
+                    <p>Địa chỉ: 01 An Dương Vương</p>
+                    <p>Sdt: 012345678</p>
+                    <p><a class="btn btn-secondary" href="#">Xem chi tiết &raquo;</a></p>
                 </div>
                 <!-- /.col-lg-4 -->
             </div>
