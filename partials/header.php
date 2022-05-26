@@ -12,7 +12,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
     <!-- Bootstrap core CSS -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
         .avt{
@@ -40,7 +40,7 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="./carousel/carousel.css" rel="stylesheet">
 </head>
 
 <body>
