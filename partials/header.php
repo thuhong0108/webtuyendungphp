@@ -63,14 +63,11 @@
                     <a class="nav-link active" aria-current="page" href="dangky.html">Đăng kí</a>
                 </li>
             </ul>
-            <form class="navbar-nav" style="left: 100px;">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">
-                    <span class="glyphicon glyphicon-search"></span>
-                </button>
-            </form>
+            <ul style="float: right;" class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="timkiem.php">Tìm kiếm</a>
+                </li>
+            </ul>
 
         </nav>
     </header>
